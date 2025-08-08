@@ -21,7 +21,7 @@ services:
       - "5434:5432"
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: premianta
+      POSTGRES_PASSWORD: postgres
       POSTGRES_DB: mydatabase2
     networks:
       - microservices-network
@@ -34,3 +34,4 @@ networks:
 
 volumes:
   postgres-data:
+
